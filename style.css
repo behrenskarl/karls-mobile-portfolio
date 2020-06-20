@@ -1,4 +1,21 @@
-.container-sm {
-   display: flex; 
-   justify-content: center; 
+body {
+    background-color: wheat;
+}
+
+.navbar-brand {
+    background-color: teal;
+    padding: 1%;
+}
+
+.card {
+    border: slategray;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15pt;
+}
+
+.card-title {
+    background-color: teal;
+
 }
