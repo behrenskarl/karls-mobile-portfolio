@@ -3,8 +3,9 @@ body {
 }
 
 .navbar-brand {
-    background-color: teal;
+    background-color: rgb(23, 162, 184);
     padding: 1%;
+    color: ivory;
 }
 
 .card {
@@ -16,6 +17,41 @@ body {
 }
 
 .card-title {
-    background-color: teal;
+    background-color: rgb(23, 162, 184);
+    padding: 1%;
+    color: ivory;
+    display: flex;
+    justify-content: center;
 
+}
+
+.img-fluid {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.card-img-top {
+    display: flex;
+    justify-content: center;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 15pt;
+}
+
+.btn-primary {
+    background-color: rgb(23, 162, 184);
+    margin-bottom: 100pt;
+}
+
+.btn-info {
+    margin-bottom: 15pt;
 }
